@@ -1,0 +1,26 @@
+.btns{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px auto;
+}
+
+.blocks{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-block{
+    width: 20%;
+}
+
+@media (max-width:960px) {
+    body{
+        padding: 10px;
+    }
+    .blocks{
+        flex-direction: column;
+    }
+    .info-block{
+        width: 100%;
+    }
+}
